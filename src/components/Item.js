@@ -8,7 +8,7 @@ function Item({ name, category }) {
   }
 
   return (
-    <li className={isInCart ? "in-cart" : ""}>
+    <li className={isInCart ? "in-cart" : ""} style={{padding: "3px", border: "3px solid #F8F955"}}>
       <span>{name}</span>
       <span className="category">{category}</span>
       <button
